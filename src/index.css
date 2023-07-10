@@ -7,7 +7,608 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ================= global =================== */
+.container{
+  max-width: 1433px!important;
+}
+.section{
+  padding-top: 10rem;
+}
+.box{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.box p{
+  max-width: 29rem;
+  margin: auto;
+}
+p{
+  font-size: 18px;
+  font-weight: 500;
+  color: hsl(172.04deg 89.09% 21.57%);
+  margin-bottom: 2rem!important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cardo', serif!important;
+  color: hsl(172.04deg 89.09% 21.57%)!important;
+}
+h1{
+  font-size: 60px!important;
+  margin-bottom: 2rem!important;
+}
+
+span{
+  color: hsl(17.44deg 79.59% 71.18%);
+}
+
+.btn-outline{
+  background: #FFF;
+  border-radius: 40px;
+  border: 2px solid hsl(19.2deg 65.79% 70.2%);
+  color: hsl(19.2deg 65.79% 70.2%);
+  font-weight: 600;
+  font-size: 18px;
+  /* padding: 7px;
+  width: 11rem; */
+  padding: 9px;
+  width: 12rem;
+}
+.btn-outline:hover{
+  background-color: hsl(19.2deg 65.79% 70.2%);
+  color: #fff;
+}
+.btn-outline:hover img{
+  background-color: #FFF;
+}
+.btn-outline img{
+  width: 11px;
+}
+.button-outline-logo{
+  width: 11px;
+}
+.content-logo{
+  width: 3rem;
+  height: 3rem;
+}
+
+
+
+
+
+/* ================ navbar =================== */
+.navbar-brand img{
+  width: 92px;
+}
+button.btn.btn-primary {
+  border-radius: 40px;
+  font-size: 14px;
+  width: 8rem;
+  background-color: hsl(19.2deg 65.79% 70.2%);
+  border: none;
+}
+a.nav-link {
+  color: hsl(171.96deg 84.35% 22.55%);
+  font-weight: 600;
+}
+.me-auto.my-2.my-lg-0.navbar-nav.navbar-nav-scroll {
+  margin: auto;
+  gap: 2rem;
+}
+
+/* ========================= banner ============================== */
+.banner-section{
+  background-image: url(../public/images/Banner\ Background.png);
+  padding-top: 0;
+  background-size: cover;
+  background-position: bottom;
+}
+.banner-img-1 {
+  width: 30rem;
+  float: right;
+  transform: translate(54px, -349px);
+}
+img.banner-img-2 {
+  width: 42rem;
+  transform: translate(-159px, 57px);
+}
+.banner-content{
+  margin-left: 6.5rem;
+  padding-top: 3rem;
+}
+.banner-content h1{
+  font-size: 70px!important;
+  
+}
+
+.banner-content p{
+  max-width: 29rem;
+}
+.banner-content button{
+  font-size: 18px!important;
+  width: 13rem!important;
+  padding: 10px;
+}
+  
+/* =================== services ========================= */
+.service-section{
+  background: url(../public/images/Shape.png);
+  background-repeat: no-repeat;
+  background-size: 26rem;
+  overflow: hidden;
+  background-position: -9rem -4rem;
+
+}
+.service-header{
+  text-align: center;
+}
+.service-header p{
+  max-width: 28rem;
+  margin: auto;
+}
+.service-content-box{
+  margin-top: 2rem;
+  padding: 40px;
+}
+.service-content-box:hover{
+  background: linear-gradient(
+    hsl(177.86deg, 18.18%, 69.8%),
+    hsl(36.92deg, 19.4%, 86.86%));
+    border-radius: 50px;
+}
+.service-content-heading{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.content-logo{
+  width: 3rem;
+  height: 3rem;
+}
+.service-content-heading h2{
+  margin: 0!important;
+}
+
+/* =============== doctor-section ==================== */
+.doctor-section{
+  background-image: url(../public/images/Our\ Doctoe\ BAckground.png);
+  background-position-y: 255px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.doctor-image-box{
+  width: 100%;
+  text-align: center;
+}
+.doctor-image-box .doctor-img{
+  width: 90%;
+}
+.doctor-content {
+  padding-top: 10rem;
+}
+.doctor-content h1{
+  max-width: 36rem;
+}
+.doctor-content p{
+  max-width: 36rem;
+}
+.doctor-content button{
+  background-color: hsl(32deg 24.59% 88.04%);
+}
+.circle{
+  transform: translate(-253px, 68px);
+  width: 13%;
+}
+/* ====================== features ======================= */
+.feature-section{
+  background-image: url(../public/images/Shape\ 3.png);
+  background-repeat: no-repeat;
+  background-position: 85rem 2rem;
+}
+.feature-content-heading p{
+  max-width: 14rem;
+}
+.feature-content-heading h2{
+  margin-top: 1rem;
+}
+.feature-content-heading {
+  padding-left: 3rem;
+}
+
+/* ============== process =================== */
+.process-content-box {
+  margin-top: 7rem;
+}
+.side-img{
+  position: relative;
+}
+.circle-2{
+  position: absolute;
+  top: -4.5rem;
+  left: -10rem;
+  z-index: -1;
+  width: 20%;
+  height: 54%;
+
+}
+
+/* =================== contact section =============== */
+.contact-section{
+  background-image: url(../public/images/banner\ back.jpeg);
+  position: relative;
+
+}
+.contact-section::after{
+  position: absolute;
+  content: "";
+  background-color:  #E8E1D9;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+}
+.contact-content-box{
+  z-index: 2;
+  position: relative;
+  padding: 6rem 2rem 5rem 1rem;
+}
+.contact-content-box button{
+    font-size: 18px!important;
+    width: 10rem!important;
+    margin-right: 3rem!important;
+}
+.contact-section{
+  margin-top: 10rem;
+  padding: 0!important;
+}
+.contact-content-box p{
+  max-width: 41rem!important;
+}
+
+
+/* -============= team section =============== */
+.Team-content-logo img{
+  width: 2.5rem!important;
+}
+.Team-content-logo{
+  gap: 3rem!important;
+}
+.Team-content {
+  background-color: #e8e1d9;
+  padding: 2rem 0 3rem 0;
+}
+.Team-box{
+  border-radius: 50px;
+  overflow: hidden;
+}
+.team-crousal-box {
+  margin-top: 5rem;
+}
+/* ================ appointmrnt section ================== */
+.appointment-section{
+  background-image: url(../public/images/Appointment\ background.png);
+  background-size: contain;
+  background-position: 0rem 14.5rem;
+  background-repeat: no-repeat;
+}
+
+.appointment-img{
+  width: 100%;
+}
+.appointment-content-section{
+  padding-left: 5rem;
+  margin-top: 9rem;
+}
+.appointment-content-section p{
+  max-width: 41rem;
+}
+.appointment-content-section img{
+  transform: translate(491px, 41px);
+}
+.btn-custom{
+  border-radius: 40px;
+  font-size: 18px;
+  width: 9rem;
+  background-color: hsl(19.2deg 65.79% 70.2%);
+  border: none;
+  color: #FFF;
+  padding: 6px;
+}
+.shape6{
+  position: absolute;
+  left: 82.2rem;
+  z-index: -1;
+  width: 12rem;
+}
+/* ================ article ================= */
+.article-section-img-box img{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.article-section p{
+  margin-bottom: 1rem!important;
+  font-size:16px ;
+}
+.article-heading{
+  margin-bottom: 5rem;
+}
+/* /=================== reviews ================== */
+.review-section{
+  background-image: url(../public/images/Review\ Background.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: -3rem 4rem;
+}
+.review-header{
+  position: relative;
+}
+.review-header h1{
+  max-width: 29rem;
+  margin: auto;
+}
+.review-header h2{
+  font-size: 50px;
+}
+.review-header img{
+  position: absolute;
+  left: 4rem;
+  top: -1rem;
+}
+.customer-review p{
+  font-size: 14px!important;
+  margin-bottom: 0!important;
+  margin-top: 1rem!important;
+}
+.review-smile img{
+  width: 100%;
+  transform: translate(0px, -159px);
+}
+.review-smile{
+  height: 14rem;
+}
+.review-bottom-svg{
+  transform: translate(-42px, 132px);
+}
+.mr-3{
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+.mbb-5{
+  padding-bottom: 3rem;
+}
+/* =========footer=============== */
+.pd-11{
+  padding-right:8rem ;
+}
+ul{
+  list-style: none;
+  line-height: 2.5rem;
+  color: #FFF;
+}
+ul li h3{
+  color: #FFF!important;
+}
+.email-form-box{
+  width: 19rem;
+  margin-left: 6rem;
+}
+.email-form-box h2{
+  color: #FFF!important;
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+.email-form-box p{
+  font-size: 14px;
+  margin-bottom: 1rem!important;
+  color: #FFF;
+  font-weight: 400!important;
+}
+.email-form-box input{
+  border: none;
+    border-bottom: 1px solid;
+    width: 19rem;
+    margin-bottom: 2rem;
+    background-color: hsl(172.04deg 89.09% 21.57%);
+    color: #FFF;
+}
+.footer-section{
+  padding-top: 6rem!important;
+  background-color: hsl(172.04deg 89.09% 21.57%);
+}
+.footer-social{
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer-social img{
+  width: 9%;
+}
+.copyright{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2rem;
+}
+.policies{
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 1rem!important;
+}
+.policies-box{
+  width: 22rem;
+  margin-left: 2rem;
+}
+
+/* ================== media query for mobile =========== */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  /* ======= global ============ */
+  .section {
+    padding-top: 6rem!important;
+}
+    .btn-outline{
+      font-size: 14px;
+      padding: 6px;
+      width: 10rem;
+      margin-bottom: 1rem;
+    }
+
+    h1{
+      font-size: 24px!important;
+      margin-bottom: 1rem!important;
+    }
+    h2{
+      font-size: 20px!important;
+    }
+    p{
+      font-size: 14px!important;
+      margin-bottom: 1rem!important;
+    }
+  /* ============ banner-section =========== */
+
+    .banner-section{
+      padding: 0rem!important;
+    }
+
+  .banner-img-1 {
+    width: 18rem;
+    float: right;
+    transform: translate(9px, 30px);
+}
+.banner-content{
+  margin-left: 1rem;
+}
+
+.banner-content h1 {
+  font-size: 24px!important;
+}
+
+img.banner-img-2{
+  display: none;
+}
+
+/* ============= service section ============ */
+.service-section{
+  background-size: 13rem;
+  background-position: -8rem -4rem;
+  padding-top: 8rem!important;
+}
+
+.service-content-box {
+  margin-top: 0;
+}
+
+/* ========== doctor-section ============ */
+.doctor-section {
+  background-size: cover;
+  background-position-y: 65px;
+}
+.doctor-content {
+  padding-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+.feature-content-heading {
+  padding-left: 4.5rem;
+}
+
+/* ============== process-section ============ */
+.process-content-box {
+  margin: 0rem 1rem 0rem 1rem;
+}
+.swiper {
+  margin-top: 2rem;
+}
+/* =========== contact- section ========= */
+.contact-content-box {
+ padding: 0rem 1rem 5rem 1rem;
+}
+.contact-content-box button{
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+/* ============== team-section ========== */
+.team-crousal-box {
+  margin-top: 0rem;
+}
+.appointment-content-section {
+  padding-left: 0rem;
+  margin: 5rem 1rem 0rem 1rem;
+}
+
+/* ========== article-section============ */
+
+.article-heading {
+    margin-bottom: 1rem;
+}
+.article-section-img-box {
+  margin-top: 2rem;
+}
+/* ======review-section ====== */
+.review-smile img {
+  transform: translate(0px, -512px);
+}
+.review1 {
+  margin-top: 8rem!important;
+}
+.review-bottom-svg {
+  display: none;
+}
+.review-smile {
+  display: none;
+}
+img.smile {
+    position: absolute;
+    left: 0rem;
+    top: -2rem;
+    display: block!important;
+    width: 23rem;
+}
+.review-section {
+    background-position: -12rem 7rem;
+}
+img.shape8 {
+  left: 0rem;
+  top: 12rem;
+  width: 6rem;
+}
+.customer-review{
+  margin-top: 2rem;
+}
+/* =============== footer-section ============== */
+.email-form-box {
+  width: 21rem;
+  margin: 2rem 1rem 2rem 1rem;
+}
+.policies-box {
+  width: 21rem;
+  margin: 0rem 1rem 0rem 1rem ;
+}
+
+.shape6 {
+  display: none;
+}
+.appointment-content-section img {
+  transform: translate(120px, 41px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
