@@ -6,7 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.col-lg-7.col-md-8{
+  position: relative;
+}
+.email-form-box ::-webkit-input-placeholder
+{
+    color: hsl(171deg 9.35% 58.04%);
+    opacity: 1;
+    font-family: 'Cardo', serif!important;
+  
+}
 /* ================= global =================== */
 .container{
   max-width: 1433px!important;
@@ -318,7 +327,7 @@ img.banner-img-2 {
 }
 .shape6{
   position: absolute;
-  left: 82.2rem;
+  left: 42.2rem;
   z-index: -1;
   width: 12rem;
 }
@@ -599,6 +608,202 @@ img.shape8 {
 .appointment-content-section img {
   transform: translate(120px, 41px);
 }
+/* ===feature section== */
+.feature-content-heading {
+  padding-left: 2rem;
+  }
+
+
+}
+
+/* ==============  media query for ipad ==================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+
+  .section {
+    padding-top: 8rem!important;
+}
+p{
+  font-size: 16px!important;
+}
+  /* === banner-section=== */
+  .banner-section{
+    padding: 0!important;
+  }
+  .banner-content {
+    margin-left: 3.5rem;
+    padding-top: 6rem;
+  }
+  .banner-content p{
+    font-size: 18px!important;
+  }
+  .banner-img-1 {
+    transform: translate(9px,-24px);
+  }
+  h1 {
+    font-size: 34px!important;
+  }
+  .banner-content h1{
+    font-size: 34px!important;
+  }
+  img.banner-img-2 {
+    width: 34rem;
+    transform: translate(-159px, 30px);
+  }
+  /* ====== service section === */
+  .service-section {
+    background-size: 20rem;
+  }
+  .service-content-box {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  /* ==== doctor-section==== */
+  .doctor-content {
+    padding-top: 0rem;
+    margin-left: 2rem;
+}
+.doctor-section {
+  background-position-y: 34px;
+  background-size: cover;
+}
+.doctor-image-box .doctor-img {
+  width: 47%;
+  transform: translate(127px, -63px);
+}
+.circle {
+  transform: translate(-206px, -167px);
+  width: 17%;
+}
+/* === feature section === */
+.feature-content-heading {
+  padding-left: 0rem;
+  margin: 0rem 2rem 3rem 3rem;
+}
+.process-content-box {
+  margin: 0rem 3rem 4rem 2rem!important;
+}
+/* ===feature section ==== */
+.circle-2 {
+  position: absolute;
+  top: -6.5rem;
+  left: -5rem;
+  z-index: -1;
+  width: 22%;
+  height: 23%;
+}
+/* === contact section === */
+.contact-content-box {
+  padding: 0;
+  padding-bottom: 4rem;
+}
+/* === team section=== */
+.team-crousal-box {
+  margin-top: 2rem;
+}
+/* === appointment section==== */
+.appointment-section {
+  background-size: cover;
+  background-position: 0rem 1.5rem;
+}
+.appointment-content-section {
+  padding-left: 1rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+.appointment-img {
+  width: 100%;
+  transform: translate(10px, 0px);
+  height: 25rem;
+}
+.appointment-content-section img {
+  transform: translate(299px, 93px);
+}
+.shape6 {
+  display: none;
+  }
+  /* /===aticle section === */
+  .article-section-img-box img {
+    margin-top: 3rem;
+}
+.article-heading {
+  margin-bottom: 1rem;
+}
+.article-box{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+/* =====review section==== */
+.review-smile img {
+  transform: translate(0px, -512px);
+}
+.review1 {
+  margin-top: 8rem!important;
+}
+.review-bottom-svg {
+  display: none;
+}
+.review-smile {
+  display: none;
+}
+img.smile {
+  position: absolute;
+  left: 8rem;
+  top: -2rem;
+  display: block!important;
+  width: 35rem;
+}
+.review-section {
+    background-position: -12rem 7rem;
+}
+img.shape8 {
+  left: 0rem;
+  top: 12rem;
+  width: 6rem;
+}
+.customer-review{
+  margin-top: 2rem;
+}
+
+.customer-review p {
+    font-size: 14px!important;
+    margin-bottom: 0!important;
+    margin-top: 1rem!important;
+    width: 29rem;
+    margin: auto;
+}
+/* ===footer section ==*/
+ul {
+  padding-left: 0rem;
+  margin-left: 3rem;
+}
+.email-form-box {
+  width: 100%;
+  margin-left: 0rem;
+}
+.email-form-box input {
+  width: 100%;
+}
+.policies-box {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width: 30rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

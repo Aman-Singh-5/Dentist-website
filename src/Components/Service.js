@@ -5,7 +5,7 @@ import Row from "react-bootstrap/esm/Row"
 const Content = (props) => {
     return (
         <>
-            <Col lg={4}>
+            <Col lg={4} md={6}>
                 <div className="service-content-box">
                     <div className="service-content-heading"><img className="content-logo" src={props.src} alt="logo"/><h2>{props.logo}{props.heading}</h2></div>
                     <p>{props.para}</p>

@@ -9,8 +9,8 @@ export const Articles = () => {
                 <Container>
                     <div className="article-heading text-center"> <h1>Our <span>Insights</span> and <span>Articles</span></h1></div>
                     <Row>
-                        <Col lg={4}>
-                            <div className="text-center">
+                        <Col lg={4} md={6}>
+                            <div className="text-center article-box">
                             <div className="article-section-img-box">
                                 <img src="images/Article image 1.png" alt="pic" />
                             </div>
@@ -21,8 +21,8 @@ export const Articles = () => {
                                 <button className="btn-outline">Know this More</button>
                             </div>
                         </Col>
-                        <Col lg={4}>
-                        <div className="text-center">
+                        <Col lg={4} md={6}>
+                        <div className="text-center article-box">
                             <div className="article-section-img-box">
                                 <img src="images/Article image 1.png" alt="pic" />
                             </div>
@@ -33,8 +33,8 @@ export const Articles = () => {
                                 <button className="btn-outline">Know this More</button>
                             </div>
                         </Col>
-                        <Col lg={4}>
-                        <div className="text-center">
+                        <Col lg={4} md={6}>
+                        <div className="text-center article-box">
                             <div className="article-section-img-box">
                                 <img src="images/Article image 1.png" alt="pic" />
                             </div>

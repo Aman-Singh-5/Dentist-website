@@ -6,7 +6,7 @@ import Col from "react-bootstrap/esm/Col"
 const Content = (props) => {
     return (
         <>
-            <Col lg={3}>
+            <Col lg={3} md={6} sm={6}>
                 <div className="feature-content-heading">
                     <img className="content-logo" src={props.src} alt="logo" />
                     <h2>{props.heading}</h2>

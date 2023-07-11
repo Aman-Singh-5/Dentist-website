@@ -8,10 +8,10 @@ export const Appointment = () => {
             <section className="section appointment-section">
                 <Container>
                     <Row>
-                        <Col lg={5}>
+                        <Col lg={5} md={4}>
                             <img className="appointment-img" src="images/Appointment image.png" alt="pic" />
                         </Col>
-                        <Col lg={7}>
+                        <Col lg={7} md={8}>
                             <img className="shape6" src="images/Shape 6.png" alt="pic"/>
                             <div className="appointment-content-section">
                                 <h1>Come See <span>Us</span> Book an <span>Appointment</span></h1>

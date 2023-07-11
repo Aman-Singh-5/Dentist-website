@@ -9,9 +9,9 @@ export const Footer = () => {
                 <div className="footer-outer-div">
                     <Container>
                         <Row>
-                            <Col lg={8} className="pd-11">
+                            <Col lg={8} md={8} className="pd-11">
                                 <Row>
-                                    <Col lg={3}>
+                                    <Col lg={3} md={6} sm={6}>
                                         <ul>
                                             <li><h3>Services</h3></li>
                                             <li>Cosmetaic Braces</li>
@@ -20,7 +20,7 @@ export const Footer = () => {
                                             <li>Extractions</li>
                                         </ul>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col lg={3} md={6} sm={6}>
                                         <ul>
                                             <li><h3>Services</h3></li>
                                             <li>Cosmetaic Braces</li>
@@ -29,7 +29,7 @@ export const Footer = () => {
                                             <li>Extractions</li>
                                         </ul>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col lg={3} md={6} sm={6}>
                                         <ul>
                                             <li><h3>Services</h3></li>
                                             <li>Cosmetaic Braces</li>
@@ -38,7 +38,7 @@ export const Footer = () => {
                                             <li>Extractions</li>
                                         </ul>
                                     </Col>
-                                    <Col lg={3}>
+                                    <Col lg={3} md={6} sm={6}>
                                         <ul>
                                             <li><h3>Services</h3></li>
                                             <li>Cosmetaic Braces</li>
@@ -49,7 +49,7 @@ export const Footer = () => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col lg={4}>
+                            <Col lg={4} md={4} sm={6}>
                                 <div className="email-form-box">
                                     <h2>join our newsletter to stay up to date</h2>
                                     <p>Subscribe to our newsletter to receive weekly
